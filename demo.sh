@@ -9,6 +9,9 @@ INSTALLROOT=$PWD/install-root
 # remove previous build and install artefacts
 rm -rf build $INSTALLROOT
 
+# from https://issues.mediagoblin.org/ticket/755
+# To solve "possibly undefined macro: AC_MSG_ERROR" error
+aclocal -I m4 --install
 # generate configure, Makefile.in, etc.
 ./autogen.sh
 mkdir build
