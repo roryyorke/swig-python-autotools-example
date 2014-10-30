@@ -12,3 +12,5 @@ See 'demo.sh' for an example of all of this.
 
 In a real project you would probably add ax_python_devel.m4,
 ax_pkg_swig, and ax_swig_python to m4/.
+
+[![Build Status](https://travis-ci.org/roryyorke/swig-python-autotools-example.svg?branch=master)](https://travis-ci.org/roryyorke/swig-python-autotools-example)
